@@ -1,9 +1,0 @@
-import pandas as pd
-import matplotlib.pyplot as plt
-
-# Load CSV
-df = pd.read_csv("UNSW_NB15_training-set.csv")
-
-# Preview the dataset
-print("🔹 Data info:")
-print(df.duplicated().sum())
